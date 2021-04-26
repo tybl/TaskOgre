@@ -11,11 +11,15 @@
 
 ### Task Details
 
-* Date/time created 	[Required]
-* Date/time completed 	[Optional]
-* Summary text 		[Required]
-* Details/Notes 	[Optional]
-* Tags 			[List]
-* Waiting for...	[List]
-* Required by...      	[List]
+* Date/time created [Required]
+* Date/time completed [Optional]
+* Summary text [Required]
+* Details/Notes [Optional]
+* Tags [List]
+* Waiting for... [List]
+* Required by... [List]
 * Change history
+
+### Tag Details
+
+* Name
