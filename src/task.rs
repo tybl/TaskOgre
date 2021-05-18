@@ -28,6 +28,13 @@ pub struct Todo {
     pub description: String,
 }
 
+pub struct TaskTwo {
+    pub creation_timestamp: std::time::SystemTime,
+    pub completion_timestamp: Option<std::time::SystemTime>,
+    pub summary_text: String,
+    pub detail_text: String
+}
+
 impl Task {
     pub async fn all(conn: &DbConn) -> QueryResult<Vec<Task>> {
         conn.run(|c| {
